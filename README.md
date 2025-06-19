@@ -1,6 +1,22 @@
 🧾 Sistema de Cadastro de Pessoas com Login e Geração de PDF
 Este projeto é uma aplicação web simples desenvolvida em PHP com MySQL. Ele permite que os usuários realizem login, cadastrem pessoas, editem, excluam, visualizem e gerem relatórios em PDF dessas pessoas.
 
+## ⚙️ Tecnologias
+
+- PHP 7+
+- MySQL
+- DomPDF
+- HTML5 / CSS3
+- Composer
+
+## 🧪 Como executar
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/adamanssouza/Login_crud_php.git
+   cd Login_crud_php
+
+
 🚀 Funcionalidades
 ✅ Autenticação de usuários (login)
 ✅ Cadastro de novas pessoas
