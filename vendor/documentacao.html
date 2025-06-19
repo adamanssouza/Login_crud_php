@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentação do Sistema</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+        }
+        
+        h1,
+        h2,
+        h3 {
+            color: #2c3e50;
+        }
+        
+        code,
+        pre {
+            background: #f4f4f4;
+            padding: 8px;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Documentação do Sistema de Cadastro</h1>
+    <h2>Descrição</h2>
+    <p>Este sistema foi criado para cadastro e gerenciamento de pessoas, com autenticação de usuários.</p>
+    <h2>Funcionalidades</h2>
+    <ul>
+        <li>Login e cadastro de usuários</li>
+        <li>Cadastro de pessoas</li>
+        <li>Listagem, edição, exclusão e visualização de dados</li>
+        <li>Geração de relatório PDF</li>
+    </ul>
+    <h2>Estrutura de Pastas</h2>
+    <pre>
+📂 Controladores
+📂 Listagem
+📂 Login
+📄 sistema.sql
+📄 composer.json
+📄 README.md
+  </pre>
+    <h2>Banco de Dados</h2>
+    <pre>
+CREATE TABLE pessoas (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  nome VARCHAR(100),
+  sobrenome VARCHAR(100),
+  sexo VARCHAR(20),
+  idade INT,
+  endereco VARCHAR(255)
+);
+  </pre>
+</body>
+
+</html>
