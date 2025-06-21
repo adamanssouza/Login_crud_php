@@ -121,7 +121,7 @@ button[type="button"]:hover {
     <input type="number" name="idade" value="<?= $pessoa['idade'] ?>" required>
     <input type="text" name="endereco" value="<?= $pessoa['endereco'] ?>" required>
     <button type="submit">Salvar Alterações</button>
-    <button type="button" onclick="window.location.href='index.php'">Voltar</button>
+    <button type="button" onclick="window.location.href='../login/index.php'">Voltar</button>
 </form>
 
 </body>

@@ -10,6 +10,6 @@ if (isset($_GET['id'])) {
 }
 
 
-header("Location: ../Listagem/index.php");
+header("Location: ../Listagem/crud.php");
 exit();
 ?>

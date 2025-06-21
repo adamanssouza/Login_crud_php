@@ -2,7 +2,7 @@
 
 session_start();
 if (!isset($_SESSION['usuario'])) {
-    header("Location: login.php");
+    header("Location: index.php");
     exit();
 }
 ?>
@@ -142,8 +142,8 @@ if (!isset($_SESSION['usuario'])) {
 
     <div class="btn-group">
         <button type="submit">Cadastrar Pessoa</button>
-        <button type="button" class="voltar" onclick="location.href='../Login/login.php'">Voltar</button>
-        <button type="button" class="listar" onclick="location.href='../Listagem/index.php'">Listar Pessoas</button>
+        <button type="button" class="voltar" onclick="location.href='../Login/index.php'">Voltar</button>
+        <button type="button" class="listar" onclick="location.href='../Listagem/crud.php'">Listar Pessoas</button>
     </div>
 </form>
 

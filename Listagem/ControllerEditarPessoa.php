@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $banco = new Banco();
     $sucesso = $banco->updatePessoa($id, $nome, $sobrenome, $sexo, $idade, $endereco);
 
-    header("Location: ../Listagem/index.php");
+    header("Location: ../Listagem/crud.php");
     exit();
 }
 ?>

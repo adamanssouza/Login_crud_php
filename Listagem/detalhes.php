@@ -77,7 +77,7 @@ if (!$pessoa) {
         <p><strong>Idade:</strong> <?= htmlspecialchars($pessoa['idade']) ?></p>
         <p><strong>Endereço:</strong> <?= htmlspecialchars($pessoa['endereco']) ?></p>
 
-        <a href="index.php" class="voltar">← Voltar para Lista</a>
+        <a href="crud.php" class="voltar">← Voltar para Lista</a>
     </div>
 
 </body>
